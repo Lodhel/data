@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb25eecf-5619-4e8b-bbe7-dbe548d3beea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1/sigma.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/wine_net.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,6 +14,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/DS$groupby.coverage" NAME="groupby Coverage Results" MODIFIED="1559752731113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/0" />
     <SUITE FILE_PATH="coverage/DS$0.coverage" NAME="0 Coverage Results" MODIFIED="1559146532276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/0" />
+    <SUITE FILE_PATH="coverage/DS$ln.coverage" NAME="ln Coverage Results" MODIFIED="1562955159918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1" />
     <SUITE FILE_PATH="coverage/DS$1.coverage" NAME="1 Coverage Results" MODIFIED="1559586397102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/0" />
     <SUITE FILE_PATH="coverage/DS$optimazer.coverage" NAME="optimazer Coverage Results" MODIFIED="1560882215026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1" />
     <SUITE FILE_PATH="coverage/DS$sigma.coverage" NAME="sigma Coverage Results" MODIFIED="1561056249012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1" />
@@ -23,30 +24,33 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1/requires_grad.py">
+        <entry file="file://$PROJECT_DIR$/1/sigma.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="22" column="86" selection-start-line="22" selection-start-column="86" selection-end-line="22" selection-end-column="86" />
+            <state relative-caret-position="210">
+              <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#20#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1/optimazer.py">
+        <entry file="file://$PROJECT_DIR$/1/ln.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+            <state relative-caret-position="345">
+              <caret line="56" column="61" selection-start-line="56" selection-start-column="61" selection-end-line="56" selection-end-column="61" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/1/sigma.py">
+        <entry file="file://$PROJECT_DIR$/1/wine_net.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+            <state relative-caret-position="447">
+              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
               <folding>
-                <element signature="e#0#20#0" expanded="true" />
+                <element signature="e#0#12#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -136,6 +140,8 @@
         <option value="$PROJECT_DIR$/1/requires_grad.py" />
         <option value="$PROJECT_DIR$/1/optimazer.py" />
         <option value="$PROJECT_DIR$/1/sigma.py" />
+        <option value="$PROJECT_DIR$/1/ln.py" />
+        <option value="$PROJECT_DIR$/1/wine_net.py" />
       </list>
     </option>
   </component>
@@ -172,7 +178,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../KRON_MAIN" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -189,29 +195,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.sigma">
-    <configuration name="2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="DS" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/0" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="F:\DS\0\pivot_table.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.ln">
     <configuration name="groupby" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DS" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -226,6 +210,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0/groupby.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ln" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1/ln.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -302,11 +308,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ln" />
         <item itemvalue="Python.sigma" />
         <item itemvalue="Python.optimazer" />
         <item itemvalue="Python.requires_grad" />
         <item itemvalue="Python.groupby" />
-        <item itemvalue="Python.2" />
       </list>
     </recent_temporary>
   </component>
@@ -341,11 +347,14 @@
       <workItem from="1561049112845" duration="1986000" />
       <workItem from="1561219775938" duration="564000" />
       <workItem from="1561306301453" duration="137000" />
+      <workItem from="1562355968266" duration="114000" />
+      <workItem from="1562949286299" duration="6868000" />
+      <workItem from="1563119641517" duration="513000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41459000" />
+    <option name="totallyTimeSpent" value="48954000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -358,8 +367,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33942" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23576799" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -370,15 +380,15 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3299435" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3299435" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.39322034" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.37853107" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="SciView" order="3" visible="true" weight="0.32975295" />
+      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.2744361" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
     <layout-to-restore>
@@ -447,6 +457,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/1/sigma.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/0/pivot_table.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
@@ -492,12 +512,19 @@
     <entry file="file://$PROJECT_DIR$/0/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/1/sigma.py">
+    <entry file="file://$PROJECT_DIR$/1/ln.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        <state relative-caret-position="345">
+          <caret line="56" column="61" selection-start-line="56" selection-start-column="61" selection-end-line="56" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1/wine_net.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
           <folding>
-            <element signature="e#0#20#0" expanded="true" />
+            <element signature="e#0#12#0" expanded="true" />
           </folding>
         </state>
       </provider>
